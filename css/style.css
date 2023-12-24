@@ -392,3 +392,24 @@ body {
 }
 
 .tab-btn.active .tab-text::after { opacity: 1; }
+
+/**
+ * CHIP
+ */
+
+ .chip {
+  height: 32px;
+  max-width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-inline: 16px;
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-small);
+  background-color: var(--surface);
+  color: var(--on-surface-variant);
+  --state-layer-bg: var(--on-surface-variant);
+}
+
+.chip .material-symbols-outlined { font-size: 1.8rem; }
