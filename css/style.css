@@ -317,3 +317,29 @@ body {
 .tab-content:not(.active) { display: none; }
 
 .section-title { margin-block-end: 16px; }
+
+/**
+ * BUTTON
+ */
+
+ .icon-btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  height: 40px;
+  display: grid;
+  place-items: center;
+  padding-inline: 24px;
+  border-radius: var(--radius-full);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  font-weight: var(--weight-medium);
+  overflow: hidden;
+  --state-layer-bg: var(--on-primary);
+}
+
+.btn:hover:not(:focus) { box-shadow: var(--elevation-1); }
