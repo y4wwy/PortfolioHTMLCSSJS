@@ -558,3 +558,128 @@ body {
   align-items: center;
   gap: 4px;
 }
+
+/*-----------------------------------*\
+  #PROJECT
+\*-----------------------------------*/
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+/*-----------------------------------*\
+  #RESUME
+\*-----------------------------------*/
+
+.resume-tab .list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-block-end: 28px;
+}
+
+.resume-card {
+  display: grid;
+  gap: 4px;
+}
+
+.resume-card .card-subtitle { color: var(--primary); }
+
+.resume-card .card-text { color: var(--on-surface-variant); }
+
+.resume-bottom-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.resume-bottom-item {
+  background-color: var(--surface-container);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--radius-small);
+}
+
+.resume-bottom-item .icon { height: 28px; }
+
+/*-----------------------------------*\
+  #CONTACT
+\*-----------------------------------*/
+
+.contact-tab { padding-block-end: 0; }
+
+.contact-tab .container { padding-block-end: 24px; }
+
+.contact-info,
+.contact-info-list {
+  display: grid;
+  gap: 12px;
+}
+
+.contact-info { margin-block-end: 24px; }
+
+.contact-info-list {
+  padding-block-end: 12px;
+  border-block-end: 1px solid var(--outline-variant);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-info .icon-box {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  color: var(--on-surface-variant);
+}
+
+.info-content {
+  display: grid;
+  gap: 4px;
+}
+
+.info-title {
+  color: var(--on-surface-variant);
+  opacity: 0.6;
+}
+
+.info-text { color: var(--on-surface-variant); }
+
+.social-list {
+  display: flex;
+  gap: 12px;
+}
+
+.social-item { padding: 12px; }
+
+.input-wrapper {
+  margin-block-start: 16px;
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form {
+  background-color: var(--surface-container);
+  padding: 16px;
+  margin-block-end: 16px;
+  border-radius: var(--radius-medium);
+}
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer .container {
+  text-align: center;
+  padding: 16px;
+  border-block-start: 1px solid var(--outline-variant);
+}
