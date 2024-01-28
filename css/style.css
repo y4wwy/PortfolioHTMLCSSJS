@@ -512,7 +512,7 @@ body {
   border-radius: var(--radius-circle);
 }
 
-.hero-content { max-width: 500px; }
+/* .hero-content { max-width: 500px; } */
 
 .hero .section-subtitle { color: var(--on-surface-variant); }
 
@@ -707,13 +707,11 @@ body {
 
   .about-card,
   .primary-tabs {
-    position: sticky;
+    /* position: sticky; */
     top: 64px;
   }
 
   .primary-tabs { z-index: 2; }
-
-
 
   /**
    * HERO
